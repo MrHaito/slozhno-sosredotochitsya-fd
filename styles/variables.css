@@ -7,8 +7,8 @@
   --font-family: 'IBM Plex Mono', sans-serif;
   --font-size: 18px;
   --bg-color: #000028;
-  --title-decor: #FF0070;
-  --text-color: #F1B2CE;
+  --title-decor: #ff0070;
+  --text-color: #f1b2ce;
   --h1-color: #db00ff;
   --heading-color: var(--title-decor);
   --heading-color-transparent: rgba(255 0 112 / 0.4);
@@ -22,5 +22,4 @@
   :root {
     --padding: 20px;
   }
-
 }
