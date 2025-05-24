@@ -14,16 +14,6 @@
   background-attachment: fixed;
 }
 
-/* Здесь потом добавить стили для светлой темы в таком виде:
-
-.theme_dark {
-  --bg-color: #171717;
-  --text-color: #B3B3B3;
-  --accent-color: transparent;
-}
-
-*/
-
 .header {
   position: relative;
   block-size: 100vh;
