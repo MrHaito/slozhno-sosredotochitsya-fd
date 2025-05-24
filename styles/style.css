@@ -103,13 +103,14 @@
   border: 1px solid var(--heading-color-transparent, rgba(255 0 112 / 0.4));
 }
 
-.header__theme-menu-button:focus {
+.header__theme-menu-button:focus-visible {
   border-block-end: 1px solid var(--heading-color, #ff0070);
   outline: none;
 }
 
 .header__theme-menu-button_active {
   border: 1px solid var(--heading-color, #ff0070);
+  pointer-events: none;
 }
 
 .header__title {
@@ -190,7 +191,7 @@
   block-size: 1px;
 }
 
-.content__text-link:focus {
+.content__text-link:focus-visible {
   outline: 1px solid var(--text-color, #f1b2ce);
 }
 
