@@ -12,7 +12,7 @@
   --bg-color: #000028;
   --title-decor: #ff0070;
   --text-color: #f1b2ce;
-  --h1-color: #db00ff;
+  --main-heading-color: #db00ff;
   --heading-color: var(--title-decor);
   --heading-color-transparent: rgba(255 0 112 / 0.4);
   --subtitle-color: var(--bg-color);
@@ -24,7 +24,7 @@
   --bg-color: #000028;
   --title-decor: #ff0070;
   --text-color: #f1b2ce;
-  --h1-color: #db00ff;
+  --main-heading-color: #db00ff;
   --heading-color: var(--title-decor);
   --heading-color-transparent: rgba(255 0 112 / 0.4);
   --subtitle-color: var(--bg-color);

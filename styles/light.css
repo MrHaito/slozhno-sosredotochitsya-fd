@@ -12,19 +12,7 @@
   --bg-color: #fff1f7;
   --title-decor: #ff8dcb;
   --text-color: #353430;
-  --h1-color: #ffc2e6;
-  --heading-color: var(--title-decor);
-  --heading-color-transparent: rgba(53 52 48 / 0.4);
-  --subtitle-color: var(--bg-color);
-  --header-bg-image: url(../images/cover-image-light.png);
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  --bg-color: #fff1f7;
-  --title-decor: #ff8dcb;
-  --text-color: #353430;
-  --h1-color: #ffc2e6;
+  --main-heading-color: #ffc2e6;
   --heading-color: var(--text-color);
   --heading-color-transparent: rgba(53 52 48 / 0.4);
   --subtitle-color: var(--text-color);
@@ -36,15 +24,19 @@
 }
 
 @media (prefers-color-scheme: light) {
-  
+
   :root {
-      --bg-color: #fff1f7;
-  --title-decor: #ff8dcb;
-  --text-color: #353430;
-  --h1-color: #ffc2e6;
-  --heading-color: var(--title-decor);
-  --heading-color-transparent: rgba(53 52 48 / 0.4);
-  --subtitle-color: var(--bg-color);
-  --header-bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --title-decor: #ff8dcb;
+    --text-color: #353430;
+    --main-heading-color: #ffc2e6;
+    --heading-color: var(--text-color);
+    --heading-color-transparent: rgba(53 52 48 / 0.4);
+    --subtitle-color: var(--text-color);
+    --header-bg-image: url(../images/cover-image-light.png);
+  }
+
+  .header__rec {
+    display: none;
   }
 }
